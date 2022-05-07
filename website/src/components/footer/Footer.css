@@ -1,0 +1,100 @@
+.footer-background{
+    background-color: #f7f5f0;
+}
+
+.footer-body{
+    display: flex;
+    max-width: 1320px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-grid-item{
+    margin-top: 30px;
+    width: 20%;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer-grid-item h3{
+    font-size: .875em;
+    font-weight: 700;
+    font-family: "Josefin Sans", sans-serif;
+    color: #515151;
+}
+
+.footer-grid-item li{
+    cursor: pointer;
+    list-style-type: none;
+    margin-bottom: .25em;
+}
+
+.footer-grid-item a{
+    text-decoration: none;
+    color: #515151;
+    font-size: .85em;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer-grid-item a:hover{
+    color: #814d08;
+}
+
+.footer-grid-item p{
+    text-decoration: none;
+    color: #515151;
+    font-size: .85em;
+    line-height: 1.7;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer-grid-item input{
+    width: 80%;
+    max-width: 250px;
+    border: 1px solid black;
+    margin: 0 0 1em;
+    color: #333;
+    font-size: .85em;
+    padding: 10px 10px;
+}
+
+.footer-grid-item button{
+    background-color: #814d08;
+    color: #fff;
+    border: 2px solid transparent;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.footer-grid-item button:hover{
+    background-color: #b46b0a;
+}
+
+.footer-icons{
+    width: 20px;
+    height: auto;
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-grid-item{
+        margin-top: 30px;
+        width: 40%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .footer-grid-item{
+        margin-top: 30px;
+        width: 100%;
+        text-align: center;
+    }
+}
+

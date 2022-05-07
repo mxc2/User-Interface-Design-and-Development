@@ -1,0 +1,22 @@
+.contact-us-body{
+    position: fixed;
+    top: 50%;
+    left: 0px;
+    margin-top: 49px;
+    transform: rotate(90deg) translateY(150%);
+    background: #232b34 none repeat scroll 0% 0%;
+    max-width: 400px;
+    cursor: pointer;
+}
+
+.contact-us-text{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-bottom: 9px;
+    margin-top: 5px;
+    font-weight: 500;
+    font-family: "Mulish", sans-serif;
+}

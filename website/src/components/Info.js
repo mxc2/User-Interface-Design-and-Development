@@ -27,9 +27,11 @@ function Info(props){
                     </div>
                     <div className={text}>
                         <h2 className="header-text">{props.header}</h2>
-                        <p>{props.text}</p>
+                        <p style={{marginTop: "0px"}}>{props.text}</p>
                         <p>{props.text2}</p>
-                        <button className="button">Vaata kõiki tooteid</button>
+                        {props.button && 
+                            <button className="button" onClick={event =>  window.location.href=props.link}>{props.button}</button>
+                        }
                     </div>
                 </div>
             </div>

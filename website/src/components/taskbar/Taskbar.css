@@ -1,0 +1,147 @@
+.taskbar-background{
+    background-color: #f7f5f0;
+}
+
+.taskbar-body{
+    max-width: 1280px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.taskbar-left{
+    float: left;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.taskbar-right{
+    float: right;
+    color: #595959;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: .875em;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.taskbar-search{
+    width: 128px;
+    padding-left: 30px;
+    font-size: 14px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat scroll 6px 5px;
+    background-color: white;
+    background-size: 20px;
+    padding-top: 11px;
+    padding-bottom: 6px;
+    border: 0;
+    font-family: "Josefin Sans", sans-serif;
+    color: #333;
+}
+
+.taskbar-select{
+    margin-left: 30px; /* <- Tehniliselt see on vale, originaal leht kasutab mingeid protsente vms. Aga see tekitab probleemi */
+                       /* et kui kasutajal on high resolution screen või ultrawide, siis input ja select lähevad üksteise peale */
+    width: 128px;
+    background: #fff linear-gradient(180deg, #efefef 0%, #fff 70%);
+    font-family: Arial;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 3px 5px;
+}
+
+.taskbar-buttons{
+    margin-left: 32px;
+}
+
+.taskbar-icon{
+    height: 16px;
+    width: auto;
+    margin-right: 8px;
+}
+
+/* MOBILE-MENU */
+.mobile-menu{
+    display: none;
+}
+
+#mobile-nav{
+    display: none;
+    height: 0%;
+}
+
+.mobile-nav-buttons{
+    text-transform: uppercase;
+    color: #595959;
+    font-size: .8575em;
+    font-family: "Josefin Sans", sans-serif;
+    margin: 0;
+    padding: 15px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #59595933;
+}
+
+.taskbar-mobile-search{
+    width: 100%;
+    font-size: 14px;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat scroll 6px 5px;
+    background-color: white;
+    background-size: 20px;
+    margin: 15px 15px 15px 15px;
+    padding-left: 30px;
+    padding-top: 11px;
+    padding-bottom: 6px;
+    border: 0;
+    font-family: "Josefin Sans", sans-serif;
+    color: #333;
+}
+
+@media only screen and (max-width: 1350px) {
+    .taskbar-left{
+        margin-left: 30px;
+    }
+    
+    .taskbar-right{
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .taskbar-body{
+        margin-bottom: 8px;
+    }
+
+    .taskbar-left{
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+    
+    .taskbar-right{
+        margin-right: 5px;
+    }
+
+    .soovinimekiri{
+        display:none;
+    }
+
+    .taskbar-search{
+        display: none;
+    }
+
+    .taskbar-buttons{
+        margin-left: 0px;
+    }
+
+    .taskbar-select{
+        margin-left: 20px;
+    }
+
+    .mobile-menu{
+        display: block;
+        float: left;
+        cursor: pointer;
+        color: #595959;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+    }
+}

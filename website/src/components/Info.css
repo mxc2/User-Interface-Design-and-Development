@@ -1,5 +1,6 @@
 .info-content{
     margin-top: 40px;
+    color: #4f4f4f;
 }
 
 .info-content-mobile{
@@ -8,32 +9,36 @@
 
 .row{
     display: flex;
+    align-items: center;
 }
 
 .row-reversed{
     display: flex;
+    align-items: center;
     flex-direction: row-reverse;
 }
 
 .image {
     float: left;
-    object-fit: cover;
     position: relative;
+    max-width: 100%;
+    height: auto;
 }
 
 .text {
     float: right;
-    width: 55%;
+    width: 47%;
     padding-left: 35px;
-    font-size: 19px;
-    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.7;
     margin: auto;
+    font-family: "Montserrat", sans-serif;
 }
 
 .header-text{
-    margin-top: 0px;
+    margin: 0 0 15px;
     text-align: left;
-    font-weight: 350;
+    font-weight: 400;
     font-size: 1.3em;
     font-family: "Josefin Sans", sans-serif;
 }
@@ -42,11 +47,13 @@
     background-color: #814d08;
     border: black;
     color: white;
-    padding: 12px 18px;
+    padding: 8px 16px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 0.9em;
+    line-height: 1.42;
+    font-weight: 400;
+    border: 1px solid transparent;
     cursor: pointer;
     font-family: "Josefin Sans", sans-serif;
     font-style: normal;
@@ -58,8 +65,9 @@
 
 .image-reversed {
     float: right;
-    object-fit: cover;
     position: relative;
+    max-width: 100%;
+    height: auto;
 }
 
 .image-mobile{
@@ -79,15 +87,40 @@
 
 .text-reversed {
     float: left;
-    width: 55%;
+    width: 50%;
     padding-right: 35px;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.7;
     margin: auto;
+    font-family: "Montserrat", sans-serif;
 }
 
 .row::after {
     content: "";
     clear: both;
     display: table;
+}
+
+@media only screen and (max-width: 770px) {
+    .row{
+        flex-direction: column;
+    }
+
+    .row-reversed{
+        flex-direction: column;
+    }
+
+    .text{
+        padding: 0;
+        float: none;
+        width: auto;
+        margin-top: 35px;
+    }
+
+    .text-reversed{
+        padding: 0;
+        float: none;
+        width: auto;
+        margin-top: 35px;
+    }
 }

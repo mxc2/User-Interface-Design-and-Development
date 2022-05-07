@@ -10,6 +10,8 @@ function InfoList(props) {
       text={info.text}
       text2={info.text2}
       img={info.img}
+      button={info.button}
+      link={info.link}
       location={info.location}/>
     ))}
   </div>); 

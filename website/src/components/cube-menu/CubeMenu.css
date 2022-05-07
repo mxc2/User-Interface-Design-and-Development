@@ -1,0 +1,26 @@
+.cube-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;    
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.cube-menu-item{    
+    width: 33.333%;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+    .cube-menu{
+        width: 100%;
+        gap: 30px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+
+    .cube-menu-item{    
+        width: 100%;
+    }
+  }
