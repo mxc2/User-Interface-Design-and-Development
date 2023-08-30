@@ -1,12 +1,7 @@
-# Kasutajaliideste disain ja arendus / Tallinna Ülikooli Aine / Uni work
+# User Interface Design and Development / Course at Tallinn University / University Work
 
-## Attention!
-Kuna nordicdesignhome.ee leht muutub väga tihti, siis [5.mai](https://drive.google.com/file/d/13VYwBTYiMFOHM_DL-PSB8nodGQaz7uPt/view?usp=sharing) versioon on viimane, mille järgi ma tegin.
+## Description
+In the UI Design and Development course, the primary goal is to meticulously replicate a chosen website, concentrating on honing advanced CSS techniques. I chose to replicate nordicdesignhome.ee. As of 2023 August, the domain is not active anymore, so use this [picture](https://drive.google.com/file/d/13VYwBTYiMFOHM_DL-PSB8nodGQaz7uPt/view?usp=sharing) as reference.
 
-Aine ülesanne on teha valitud veebilehest nö. koopia, et saaks CSS-i kasutamist õppida.
-
-- Valitud leht: https://nordicdesignhome.ee/
-- Minu lehe link: https://kasutajaliideste-disain-ja-arendus.vercel.app/
-
-## Tech
+## Technology
  - [React](https://reactjs.org/)
